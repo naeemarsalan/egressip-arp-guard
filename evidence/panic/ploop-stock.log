@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+TypeError: list indices must be integers or slices, not str
+14:01:03 worker2 run=1 clean 
+14:01:13 worker2 run=2 clean sigterm=1 nft_block=0 stop_completed=1 binary=a1a5a44bb997
+14:01:27 worker2 run=3 clean sigterm=1 nft_block=0 stop_completed=1 binary=a1a5a44bb997
+14:01:41 worker2 run=4 clean sigterm=1 nft_block=0 stop_completed=1 binary=a1a5a44bb997
+14:01:55 worker2 run=5 clean sigterm=1 nft_block=0 stop_completed=1 binary=a1a5a44bb997
+14:02:09 worker2 run=6 clean sigterm=1 nft_block=0 stop_completed=1 binary=a1a5a44bb997
+14:02:23 worker2 run=7 clean sigterm=1 nft_block=0 stop_completed=1 binary=a1a5a44bb997
+14:02:36 worker2 run=8 clean sigterm=1 nft_block=0 stop_completed=1 binary=a1a5a44bb997
+14:02:52 worker2 run=9 clean sigterm=1 nft_block=0 stop_completed=1 binary=a1a5a44bb997

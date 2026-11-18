@@ -1,0 +1,63 @@
+diff --git a/bindata/network/ovn-kubernetes/common/008-script-lib.yaml b/bindata/network/ovn-kubernetes/common/008-script-lib.yaml
+index 47ea622..4520b9e 100644
+--- a/bindata/network/ovn-kubernetes/common/008-script-lib.yaml
++++ b/bindata/network/ovn-kubernetes/common/008-script-lib.yaml
+@@ -262,6 +262,44 @@ data:
+       return 1
+     }
+ 
++    # Adds flows that drop every ARP packet entering the bridge from OVN, before ovn-controller is
++    # able to emit one. Used on node boot, when the patch port to br-int does not exist yet:
++    # ovn-controller only creates it after ovnkube has pointed it at the (possibly stale) local
++    # southbound database, and it sends its first GARP about a second later, so a flow that needs
++    # the patch port number can only ever be added too late.
++    # ARP is allowed from the host (LOCAL), from every non-patch port (the uplink) and with a node
++    # IP as sender; anything else can only come from OVN. ovnkube replaces these flows with its own
++    # GARP drop flows on its first flow sync.
++    # Returns 1 if the patch port already exists (container restart) or the flows cannot be added.
++    # Remove when https://issues.redhat.com/browse/FDP-1537 lands in OVN core.
++    add_early_arp_drop_flows() {
++      local bridge="$1"
++      local cookie="0x0305"
++      local port_name of_port ip flows=""
++
++      for port_name in $(ovs-vsctl list-ports "$bridge"); do
++        if [[ "$(ovs-vsctl get interface "$port_name" type)" == "patch" ]]; then
++          return 1
++        fi
++        of_port=$(ovs-vsctl get interface "$port_name" ofport)
++        if [[ ! "$of_port" =~ ^[0-9]+$ ]]; then
++          return 1
++        fi
++        flows+="cookie=$cookie,table=0,priority=499,in_port=$of_port,arp,actions=NORMAL"$'\n'
++      done
++      flows+="cookie=$cookie,table=0,priority=499,in_port=LOCAL,arp,actions=NORMAL"$'\n'
++      for ip in $(ip -4 -o addr show dev "$bridge" scope global | awk '$4 !~ /\/32$/ {sub(/\/.*/,"",$4); print $4}'); do
++        flows+="cookie=$cookie,table=0,priority=499,arp,arp_spa=$ip,actions=NORMAL"$'\n'
++      done
++      flows+="cookie=$cookie,table=0,priority=498,arp,actions=drop"$'\n'
++
++      if ! ovs-ofctl --bundle add-flows "$bridge" - <<< "$flows" > /dev/null; then
++        return 1
++      fi
++      echo "$(date -Iseconds) - INFO - Added early ARP drop flows on $bridge (no patch port yet)"
++      return 0
++    }
++
+     # Wait for patch port to exist and add GARP drop flow.
+     wait-and-add-garp-drop-flow() {
+       local bridge="$1"
+@@ -529,7 +567,12 @@ data:
+       # start temp work around
+       # remove when https://issues.redhat.com/browse/FDP-1537 is available
+       if ovs-vsctl br-exists "br-ex"; then
+-          (wait-and-add-garp-drop-flow br-ex &)
++          # On boot, block ARP from OVN synchronously, before ovnkube is started and lets
++          # ovn-controller connect. Fall back to the per-port flow when the patch port is
++          # already there (container restart).
++          if ! add_early_arp_drop_flows br-ex; then
++            (wait-and-add-garp-drop-flow br-ex &)
++          fi
+       fi
+       # end temp work around
+ 
