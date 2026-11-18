@@ -1,0 +1,60 @@
+# Interim mitigation for stale EgressIP ARP after an EgressIP holder reboots (OCP 4.20.z, OVN-Kubernetes).
+# Lab-validated on 4.20.44 only. Not a Red Hat supported fix: review with Red Hat support before
+# production use, and remove once the OVN-Kubernetes fixes (OCPBUGS-77068 and the startup GARP race)
+# are available in the cluster's release. Applying this MachineConfig reboots the pool's nodes.
+# Apply to every pool whose nodes are labelled k8s.ovn.org/egress-assignable.
+apiVersion: machineconfiguration.openshift.io/v1
+kind: MachineConfig
+metadata:
+  name: 99-worker-egressip-arp-guard
+  labels:
+    machineconfiguration.openshift.io/role: worker
+spec:
+  config:
+    ignition:
+      version: 3.4.0
+    storage:
+      files:
+      - path: /usr/local/bin/egressip-arp-guard.sh
+        mode: 0755
+        overwrite: true
+        contents:
+          source: data:text/plain;charset=utf-8;base64,IyEvYmluL2Jhc2gKIyBlZ3Jlc3NpcC1hcnAtZ3VhcmQ6IHN0b3AgYSBub2RlIHRoYXQgaXMgc2h1dHRpbmcgZG93biBvciBib290aW5nIGZyb20gYW5zd2VyaW5nIG9yCiMgYW5ub3VuY2luZyBBUlAgZm9yIEVncmVzc0lQcyBpdCBtYXkgbm8gbG9uZ2VyIG93biAodGhleSBmYWlsIG92ZXIgd2hpbGUgaXQgaXMgZG93bikuCiMKIyAgIHN0b3AgICAgIHJ1biBhdCB0aGUgdmVyeSBzdGFydCBvZiBzaHV0ZG93bi4gRHJvcHMsIG9uIHRoZSBwaHlzaWNhbCB1cGxpbmssIGluY29taW5nIEFSUAojICAgICAgICAgICAgcmVxdWVzdHMgZm9yIHRoZSBFZ3Jlc3NJUHMgdGhpcyBub2RlIGhvbGRzLiBGcm9tIHRoYXQgcG9pbnQgdGhlIG5vZGUgY2FuIG5vIGxvbmdlcgojICAgICAgICAgICAgYW5zd2VyIEFSUCBmb3IgdGhlbSwgd2hldGhlciB0aGUgYW5zd2VyIHdvdWxkIGNvbWUgZnJvbSB0aGUga2VybmVsICh0aGUgRWdyZXNzSVAgaXMKIyAgICAgICAgICAgIGFuIGFkZHJlc3Mgb24gYnItZXgpIG9yIGZyb20gT1ZOJ3MgZmxvd3MuIFNhbWUgYXBwcm9hY2ggYXMgdXBzdHJlYW0gb3ZuLWt1YmVybmV0ZXMKIyAgICAgICAgICAgIFBSIDYyMzguIFRoZSBydWxlIGxpdmVzIGluIG5mdGFibGVzIGFuZCBkaXNhcHBlYXJzIHdpdGggdGhlIHJlYm9vdC4KIyAgIHN0YXJ0ICAgIHJ1biBhdCBib290IGJlZm9yZSBrdWJlbGV0LiBEcm9wcyBBUlAgdGhhdCBPVk4gZW1pdHMgb24gYnItZXggdW5sZXNzIGl0IGlzIHNvdXJjZWQKIyAgICAgICAgICAgIGZyb20gdGhlIG5vZGUncyBvd24gSVAsIHNvIG92bi1jb250cm9sbGVyIGNhbm5vdCBhbm5vdW5jZSBvciBhbnN3ZXIgZm9yIGFuIEVncmVzc0lQCiMgICAgICAgICAgICBmcm9tIHRoZSBPVk4gZGF0YWJhc2Ugc2F2ZWQgb24gZGlzay4KIyAgIHJlbGVhc2UgIHJlbW92ZXMgdGhlIGJvb3QtdGltZSBmbG93cyBvbmNlIG92bmt1YmUtbm9kZSBoYXMgc3luY2VkLgpzZXQgLXUKQlI9YnItZXgKVEFCTEU9ZWdyZXNzaXAtYXJwLWd1YXJkCkNPT0tJRT0weDBlMWIKbG9nKCkgeyBlY2hvICJlZ3Jlc3NpcC1hcnAtZ3VhcmQ6ICQqIjsgfQoKbm9kZV9pcCgpIHsgaXAgLTQgLW8gYWRkciBzaG93IGRldiAiJEJSIiBzY29wZSBnbG9iYWwgfCBhd2sgJyQ0ICF+IC9cLzMyJC8gJiYgJDQgIX4gL14xNjlcLjI1NFwuLyB7c3ViKC9cLy4qLywiIiwkNCk7IHByaW50ICQ0OyBleGl0fSc7IH0KdXBsaW5rKCkgIHsgb3ZzLXZzY3RsIGxpc3QtcG9ydHMgIiRCUiIgfCBncmVwIC12ICdecGF0Y2gtJyB8IGhlYWQgLTE7IH0KIyBFZ3Jlc3NJUHMgY3VycmVudGx5IGhlbGQgYnkgdGhpcyBub2RlOiB0aGUgLzMyIGFkZHJlc3NlcyBvdm5rdWJlLW5vZGUgcHV0IG9uIGJyLWV4LCBtaW51cyBhbnkKIyBrZWVwYWxpdmVkLW1hbmFnZWQgVklQIChBUEkvaW5ncmVzcyBWSVBzIGFyZSBhbHNvIC8zMiBvbiBici1leCBvbiBvbi1wcmVtIHBsYXRmb3JtcykuCmVncmVzc19pcHMoKSB7CiAgbG9jYWwgYSBvdXQ9IiIKICBmb3IgYSBpbiAkKGlwIC00IC1vIGFkZHIgc2hvdyBkZXYgIiRCUiIgfCBhd2sgJyQ0IH4gL1wvMzIkLyB7c3ViKC9cLy4qLywiIiwkNCk7IHByaW50ICQ0fScpOyBkbwogICAgZ3JlcCAtcXNGICIkYSIgL2V0Yy9rZWVwYWxpdmVkL2tlZXBhbGl2ZWQuY29uZiAmJiBjb250aW51ZQogICAgb3V0PSIke291dDorJG91dCwgfSRhIgogIGRvbmUKICBlY2hvICIkb3V0Igp9CgpjYXNlICIkezE6LX0iIGluCnN0b3ApCiAgVVA9JCh1cGxpbmspOyBFSVBTPSQoZWdyZXNzX2lwcykKICBbWyAteiAiJFVQIiBdXSAmJiB7IGxvZyAic2h1dGRvd246IGNhbm5vdCBkZXRlcm1pbmUgdXBsaW5rIG9mICRCUjsgbm90IGluc3RhbGxpbmciOyBleGl0IDA7IH0KICBbWyAteiAiJEVJUFMiIF1dICYmIHsgbG9nICJzaHV0ZG93bjogbm8gRWdyZXNzSVAgb24gJEJSOyBub3RoaW5nIHRvIGRvIjsgZXhpdCAwOyB9CiAgaWYgcHJpbnRmICclc1xuJyBcCiAgICAgICJ0YWJsZSBuZXRkZXYgJFRBQkxFIiBcCiAgICAgICJkZWxldGUgdGFibGUgbmV0ZGV2ICRUQUJMRSIgXAogICAgICAidGFibGUgbmV0ZGV2ICRUQUJMRSB7IiBcCiAgICAgICIgIGNoYWluIGluZ3Jlc3MgeyIgXAogICAgICAiICAgIHR5cGUgZmlsdGVyIGhvb2sgaW5ncmVzcyBkZXZpY2UgXCIkVVBcIiBwcmlvcml0eSBmaWx0ZXI7IHBvbGljeSBhY2NlcHQ7IiBcCiAgICAgICIgICAgYXJwIG9wZXJhdGlvbiByZXF1ZXN0IGFycCBkYWRkciBpcCB7ICRFSVBTIH0gY291bnRlciBkcm9wIiBcCiAgICAgICIgIH0iIFwKICAgICAgIn0iIHwgbmZ0IC1mIC07IHRoZW4KICAgIGxvZyAic2h1dGRvd246IGRyb3BwaW5nIEFSUCByZXF1ZXN0cyBvbiAkVVAgZm9yIEVncmVzc0lQczogJEVJUFMiCiAgZWxzZQogICAgbG9nICJzaHV0ZG93bjogZmFpbGVkIHRvIGluc3RhbGwgbmZ0YWJsZXMgcnVsZSIKICBmaQogIDs7CnN0YXJ0KQogIG5mdCBkZWxldGUgdGFibGUgbmV0ZGV2ICRUQUJMRSAyPi9kZXYvbnVsbAogIElQPSIiCiAgZm9yIF8gaW4gJChzZXEgNjApOyBkbyBJUD0kKG5vZGVfaXApOyBbWyAtbiAiJElQIiBdXSAmJiBicmVhazsgc2xlZXAgMTsgZG9uZQogIFVQPSQodXBsaW5rKQogIFtbIC16ICIkSVAiIHx8IC16ICIkVVAiIF1dICYmIHsgbG9nICJib290OiBjYW5ub3QgZGV0ZXJtaW5lIG5vZGUgSVAgKCRJUCkgb3IgdXBsaW5rICgkVVApOyBub3QgaW5zdGFsbGluZyI7IGV4aXQgMDsgfQogIFVQUD0kKG92cy12c2N0bCBnZXQgaW50ZXJmYWNlICIkVVAiIG9mcG9ydCkKICAjIFRoZSBPVk4gcGF0Y2ggcG9ydCBkb2VzIG5vdCBleGlzdCB5ZXQgYXQgYm9vdCAob3ZuLWNvbnRyb2xsZXIgcmVjcmVhdGVzIGl0IHdoZW4gaXQgY29ubmVjdHMpLAogICMgc28gYWxsb3cgQVJQIG9ubHkgZnJvbSB0aGUgaG9zdCAoTE9DQUwpLCBmcm9tIHRoZSB3aXJlICh1cGxpbmspIG9yIHNvdXJjZWQgZnJvbSB0aGUgbm9kZSBJUCwKICAjIGFuZCBkcm9wIEFSUCBmcm9tIGV2ZXJ5IG90aGVyIHBvcnQsIGkuZS4gYW55dGhpbmcgT1ZOIGVtaXRzIGZvciBhbm90aGVyIGFkZHJlc3MuCiAgb3ZzLW9mY3RsIGFkZC1mbG93ICIkQlIiICJjb29raWU9JENPT0tJRSx0YWJsZT0wLHByaW9yaXR5PTYwMSxhcnAsYXJwX3NwYT0kSVAsYWN0aW9ucz1OT1JNQUwiCiAgb3ZzLW9mY3RsIGFkZC1mbG93ICIkQlIiICJjb29raWU9JENPT0tJRSx0YWJsZT0wLHByaW9yaXR5PTYwMCxpbl9wb3J0PUxPQ0FMLGFycCxhY3Rpb25zPU5PUk1BTCIKICBvdnMtb2ZjdGwgYWRkLWZsb3cgIiRCUiIgImNvb2tpZT0kQ09PS0lFLHRhYmxlPTAscHJpb3JpdHk9NjAwLGluX3BvcnQ9JFVQUCxhcnAsYWN0aW9ucz1OT1JNQUwiCiAgb3ZzLW9mY3RsIGFkZC1mbG93ICIkQlIiICJjb29raWU9JENPT0tJRSx0YWJsZT0wLHByaW9yaXR5PTU5OSxhcnAsYWN0aW9ucz1kcm9wIgogIGxvZyAiYm9vdDogZHJvcHBpbmcgQVJQIGZyb20gT1ZOIG9uICRCUiAoYW55dGhpbmcgbm90IGZyb20gJElQKSB1bnRpbCBvdm5rdWJlLW5vZGUgaGFzIHN5bmNlZCIKICA7OwpyZWxlYXNlKQogICMgV2FpdCBmb3Igb3Zua3ViZS1ub2RlJ3Mgb3duIEdBUlAgZHJvcCBmbG93cyAoY29va2llIDB4MDMwNSwgcHJpb3JpdHkgNDk4KSB0byBhcHBlYXIgYW5kIHRoZW4KICAjIGJlIHJlbW92ZWQ6IG92bmt1YmUgcmVtb3ZlcyB0aGVtIG9ubHkgYWZ0ZXIgT1ZOIGhhcyBzeW5jZWQgYW5kIHN0YWxlIE5BVCBlbnRyaWVzIGFyZSBnb25lLgogIHNlZW49MAogIGZvciBfIGluICQoc2VxIDE4MDApOyBkbwogICAgaWYgb3ZzLW9mY3RsIGR1bXAtZmxvd3MgIiRCUiIgImNvb2tpZT0weDAzMDUvLTEiIDI+L2Rldi9udWxsIHwgZ3JlcCAtcSAncHJpb3JpdHk9NDk4JzsgdGhlbiBzZWVuPTEKICAgIGVsaWYgW1sgJHNlZW4gPT0gMSBdXTsgdGhlbiBicmVhazsgZmkKICAgIHNsZWVwIDAuNQogIGRvbmUKICBzbGVlcCAyCiAgZD0kKG92cy1vZmN0bCBkdW1wLWZsb3dzICIkQlIiICJjb29raWU9JENPT0tJRS8tMSIgMj4vZGV2L251bGwgfCBncmVwICdwcmlvcml0eT01OTknIHwgZ3JlcCAtbyAnbl9wYWNrZXRzPVswLTldKicpCiAgb3ZzLW9mY3RsIGRlbC1mbG93cyAiJEJSIiAiY29va2llPSRDT09LSUUvLTEiIDI+L2Rldi9udWxsCiAgbG9nICJib290OiByZWxlYXNlZCAob3Zua3ViZSBzeW5jIHNlZW49JHNlZW4sIHN0YWxlIEFSUCBkcm9wcGVkIHdoaWxlIGd1YXJkaW5nOiAke2Q6LWZsb3dzIGFscmVhZHkgcmVwbGFjZWQgYnkgb3Zua3ViZS1ub2RlfSkiCiAgOzsKKikgZWNobyAidXNhZ2U6ICQwIHN0YXJ0fHN0b3B8cmVsZWFzZSI7IGV4aXQgMiA7Owplc2FjCmV4aXQgMAo=
+    systemd:
+      units:
+      - name: egressip-arp-guard.service
+        enabled: true
+        contents: |
+          [Unit]
+          Description=Silence ARP for failed-over EgressIPs during node shutdown
+          # Ordered after kubelet and crio so that on shutdown this unit's ExecStop runs BEFORE they stop,
+          # i.e. before the ovnkube-node pod is terminated and the EgressIP fails over.
+          After=kubelet.service crio.service ovs-configuration.service
+          
+          [Service]
+          Type=oneshot
+          RemainAfterExit=yes
+          ExecStart=/bin/true
+          ExecStop=/usr/local/bin/egressip-arp-guard.sh stop
+          TimeoutStopSec=15
+          
+          [Install]
+          WantedBy=multi-user.target
+
+      - name: egressip-arp-guard-boot.service
+        enabled: true
+        contents: |
+          [Unit]
+          Description=Hold back ARP from OVN at boot until ovnkube-node has synced
+          After=ovs-configuration.service
+          Before=kubelet.service
+          
+          [Service]
+          Type=simple
+          ExecStartPre=/usr/local/bin/egressip-arp-guard.sh start
+          ExecStart=/usr/local/bin/egressip-arp-guard.sh release
+          TimeoutStartSec=120
+          
+          [Install]
+          WantedBy=multi-user.target
+

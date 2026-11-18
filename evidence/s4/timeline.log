@@ -1,0 +1,11 @@
+2026-11-18T10:44:39.201Z holder=worker1 mac_table:
+   worker0 52:54:00:13:00:20
+   worker1 52:54:00:13:00:21
+   worker2 52:54:00:13:00:22
+2026-11-18T10:44:41.205Z REBOOT worker1
+2026-11-18T10:44:41.650Z eip_holder=worker1 gw_arp=52:54:00:13:00:21 REACHABLE worker1_ready=True
+2026-11-18T10:44:49.209Z eip_holder=worker0 gw_arp=52:54:00:13:00:20 STALE worker1_ready=True
+2026-11-18T10:44:51.276Z eip_holder=worker0 gw_arp=52:54:00:13:00:20 DELAY worker1_ready=True
+2026-11-18T10:45:14.790Z eip_holder=worker0 gw_arp=52:54:00:13:00:21 STALE worker1_ready=True
+2026-11-18T10:45:15.474Z eip_holder=worker0 gw_arp=52:54:00:13:00:21 DELAY worker1_ready=True
+2026-11-18T10:49:02.496Z DONE

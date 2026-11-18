@@ -1,0 +1,15 @@
+[Unit]
+Description=Silence ARP for failed-over EgressIPs during node shutdown
+# Ordered after kubelet and crio so that on shutdown this unit's ExecStop runs BEFORE they stop,
+# i.e. before the ovnkube-node pod is terminated and the EgressIP fails over.
+After=kubelet.service crio.service ovs-configuration.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/bin/true
+ExecStop=/usr/local/bin/egressip-arp-guard.sh stop
+TimeoutStopSec=15
+
+[Install]
+WantedBy=multi-user.target

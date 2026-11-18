@@ -1,0 +1,8 @@
+[Unit]
+Description=LAB FAULT INJECTION: delay ovnkube-controller sync after boot
+Before=kubelet.service
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/ovnkube-slow-sync.sh 10
+[Install]
+WantedBy=multi-user.target

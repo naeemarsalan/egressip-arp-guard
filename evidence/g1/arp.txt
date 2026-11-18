@@ -1,0 +1,969 @@
+2026-11-18 11:04:11.897898 52:54:00:13:00:21 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 tell 192.168.130.21, length 28
+2026-11-18 11:04:12.546686 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:12.547082 52:54:00:13:00:21 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:21, length 28
+2026-11-18 11:04:12.547133 52:54:00:13:00:21 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:21, length 28
+2026-11-18 11:04:13.572896 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:15.598918 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:17.625962 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:18.793458 52:54:00:13:00:20 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.130.100 tell 192.168.130.100, length 46
+2026-11-18 11:04:18.793501 52:54:00:13:00:20 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 46
+2026-11-18 11:04:19.653139 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:19.653718 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:19.653779 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:19.827690 52:54:00:13:00:20 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 tell 192.168.130.100, length 28
+2026-11-18 11:04:20.688278 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:20.688915 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:20.688930 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:20.828295 52:54:00:13:00:20 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 tell 192.168.130.100, length 28
+2026-11-18 11:04:21.725853 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:21.726419 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:21.726438 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:22.756925 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:22.757461 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:22.757484 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:22.830167 52:54:00:13:00:20 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 tell 192.168.130.100, length 28
+2026-11-18 11:04:23.782608 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:23.783138 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:23.783160 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:24.819580 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:24.819983 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:24.820008 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:25.859497 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:25.859938 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:25.859961 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:26.834354 52:54:00:13:00:20 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 tell 192.168.130.100, length 28
+2026-11-18 11:04:26.887251 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:26.888091 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:26.888126 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:27.919563 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:27.920152 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:27.920186 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:28.953180 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:28.953557 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:28.953580 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:29.986402 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:29.986895 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:29.986910 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:31.013703 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:31.014210 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:31.014225 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:32.043820 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:32.044288 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:32.044309 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:33.084860 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:33.085349 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:33.085370 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:34.118432 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:34.118826 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:34.118846 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:34.842479 52:54:00:13:00:20 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 tell 192.168.130.100, length 28
+2026-11-18 11:04:35.146061 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:35.146401 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:35.146421 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:36.176567 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:36.176926 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:36.176948 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:37.208312 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:37.208660 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:37.208678 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:38.238952 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:38.239268 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:38.239285 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:39.263827 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:39.264383 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:39.264401 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:40.293486 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:40.293791 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:40.293812 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:41.320996 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:41.321409 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:41.321442 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:42.355550 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:42.356074 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:42.356090 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:43.388788 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:43.389189 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:43.389207 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:44.430730 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:44.431112 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:44.431127 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:45.458542 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:45.458848 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:45.458866 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:46.487320 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:46.487662 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:46.487684 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:47.517687 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:47.518047 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:47.518068 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:48.546913 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:48.547407 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:48.547422 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:49.578590 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:49.579012 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:49.579026 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:50.611168 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:50.611561 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:50.611576 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:51.650499 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:51.650891 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:51.650907 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:52.685831 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:52.686280 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:52.686302 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:53.708516 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:53.708915 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:53.708930 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:54.740082 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:54.740399 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:54.740417 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:55.776513 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:55.776944 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:55.776966 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:56.809526 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:56.810079 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:56.810097 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:57.845586 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:57.846059 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:57.846079 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:58.876236 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:58.876591 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:58.876613 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:59.905997 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:04:59.906486 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:04:59.906500 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:00.931249 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:00.931775 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:00.931797 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:01.965339 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:01.965769 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:01.965798 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:03.004977 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:03.005496 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:03.005511 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:04.036529 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:04.036922 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:04.036936 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:05.076745 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:05.077132 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:05.077154 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:06.103854 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:06.104307 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:06.104330 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:07.131640 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:07.132315 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:07.132339 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:08.164475 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:08.164781 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:08.164799 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:09.201506 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:09.201963 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:09.201980 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:10.231865 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:10.232367 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:10.232381 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:11.257009 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:11.257327 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:11.257348 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:12.286537 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:12.287031 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:12.287046 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:13.326374 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:13.326817 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:13.326848 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:14.365740 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:14.366140 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:14.366155 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:15.393422 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:15.393794 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:15.393810 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:16.428725 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:16.429080 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:16.429096 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:17.462932 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:17.463363 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:17.463384 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:18.487500 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:18.487984 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:18.488016 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:19.519068 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:19.519406 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:19.519474 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:20.091072 52:54:00:13:00:10 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 tell 192.168.130.10, length 28
+2026-11-18 11:05:20.091575 52:54:00:13:00:20 > 52:54:00:13:00:10, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:20.091612 52:54:00:13:00:20 > 52:54:00:13:00:10, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:20.550710 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:20.551266 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:20.551286 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:21.579902 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:21.580225 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:21.580242 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:22.615937 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:22.616311 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:22.616326 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:23.647336 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:23.647973 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:23.647998 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:24.687658 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:24.688123 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:24.688145 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:25.722016 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:25.722406 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:25.722428 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:26.752871 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:26.753543 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:26.753564 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:27.804135 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:27.804845 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:27.804871 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:28.841872 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:28.842343 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:28.842363 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:29.874515 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:29.875078 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:29.875104 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:30.902206 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:30.902925 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:30.902947 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:31.932761 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:31.933336 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:31.933359 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:32.962344 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:32.962931 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:32.962952 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:33.993639 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:33.994084 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:33.994105 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:35.023234 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:35.023556 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:35.023572 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:36.052829 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:36.053262 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:36.053281 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:36.260968 52:54:00:13:00:20 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 tell 192.168.130.20, length 28
+2026-11-18 11:05:37.084943 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:37.085512 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:37.085534 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:38.116535 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:38.116918 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:38.116938 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:39.147590 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:39.147968 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:39.147991 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:40.180479 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:40.181016 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:40.181032 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:41.214213 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:41.214825 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:41.214843 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:42.247013 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:42.247506 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:42.247527 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:43.276601 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:43.277390 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:43.277425 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:44.313749 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:44.314161 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:44.314182 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:45.347933 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:45.348316 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:45.348332 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:46.375207 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:46.375558 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:46.375580 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:47.404633 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:47.405061 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:47.405094 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:48.433481 52:54:00:13:00:12 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 tell 192.168.130.12, length 28
+2026-11-18 11:05:48.434162 52:54:00:13:00:20 > 52:54:00:13:00:12, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:48.434213 52:54:00:13:00:20 > 52:54:00:13:00:12, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:48.435913 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:48.436107 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:48.436124 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:49.475784 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:49.476130 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:49.476151 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:50.505469 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:50.505966 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:50.505986 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:51.067931 52:54:00:13:00:11 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 tell 192.168.130.11, length 28
+2026-11-18 11:05:51.068319 52:54:00:13:00:20 > 52:54:00:13:00:11, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:51.068349 52:54:00:13:00:20 > 52:54:00:13:00:11, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:51.537501 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:51.538018 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:51.538034 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:52.571677 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:52.572162 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:52.572179 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:53.599762 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:53.600235 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:53.600255 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:54.629357 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:54.629887 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:54.629907 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:55.658671 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:55.659197 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:55.659218 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:56.685425 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:56.685905 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:56.685927 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:57.720541 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:57.720937 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:57.720950 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:58.754017 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:58.754544 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:58.754565 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:59.791277 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:05:59.791635 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:05:59.791665 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:00.822765 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:00.823191 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:00.823210 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:01.852042 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:01.852638 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:01.852674 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:02.879194 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:02.879786 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:02.879801 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:03.915537 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:03.916413 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:03.916436 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:04.945720 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:04.946414 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:04.946434 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:05.975573 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:05.976678 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:05.976710 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:06.590752 52:54:00:13:00:22 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 tell 192.168.130.22, length 28
+2026-11-18 11:06:06.591184 52:54:00:13:00:20 > 52:54:00:13:00:22, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:06.591215 52:54:00:13:00:20 > 52:54:00:13:00:22, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:07.001020 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:07.001598 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:07.001634 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:08.035051 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:08.035747 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:08.035768 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:09.066661 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:09.067050 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:09.067066 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:10.097609 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:10.098016 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:10.098050 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:11.128136 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:11.128543 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:11.128564 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:12.165505 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:12.165997 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:12.166035 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:13.207563 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:13.208313 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:13.208355 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:14.240008 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:14.240499 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:14.240520 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:15.270848 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:15.271379 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:15.271401 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:16.293023 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:16.293364 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:16.293385 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:17.327697 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:17.328072 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:17.328096 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:18.355799 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:18.356250 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:18.356284 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:19.383344 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:19.383727 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:19.383751 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:20.416531 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:20.416908 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:20.416922 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:21.448012 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:21.448495 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:21.448533 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:22.486785 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:22.487156 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:22.487171 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:23.525817 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:23.526661 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:23.526730 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:24.556079 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:24.556550 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:24.556571 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:25.588876 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:25.589591 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:25.589621 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:26.618659 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:26.619116 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:26.619137 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:27.656201 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:27.656830 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:27.656853 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:28.692709 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:28.693300 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:28.693320 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:29.731134 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:29.731778 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:29.731803 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:30.764674 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:30.765344 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:30.765371 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:31.799192 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:31.799724 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:31.799746 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:32.567837 52:54:00:13:00:20 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 tell 192.168.130.20, length 28
+2026-11-18 11:06:32.829210 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:32.829832 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:32.829857 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:33.855834 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:33.856340 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:33.856361 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:34.892258 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:34.892774 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:34.892795 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:35.928461 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:35.929123 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:35.929145 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:36.959557 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:36.960213 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:36.960244 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:37.993953 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:37.994488 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:37.994512 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:39.024929 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:39.025531 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:39.025546 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:40.057566 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:40.058090 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:40.058105 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:41.090888 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:41.091433 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:41.091453 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:42.133895 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:42.134467 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:42.134486 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:43.162323 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:43.162896 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:43.162911 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:44.201406 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:44.202016 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:44.202032 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:45.236562 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:45.236986 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:45.237000 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:46.269031 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:46.269585 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:46.269607 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:47.306894 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:47.307327 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:47.307348 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:48.336450 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:48.337013 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:48.337028 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:49.373393 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:49.373832 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:49.373851 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:50.407482 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:50.407970 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:50.407991 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:51.435880 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:51.436448 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:51.436469 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:52.465800 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:52.466289 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:52.466304 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:53.494011 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:53.494380 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:53.494400 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:54.523650 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:54.524048 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:54.524061 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:55.562068 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:55.562541 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:55.562556 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:56.584927 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:56.585372 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:56.585393 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:57.623106 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:57.623538 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:57.623553 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:58.651533 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:58.652029 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:58.652043 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:59.684903 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:06:59.685342 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:06:59.685361 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:00.718750 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:00.719306 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:00.719326 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:01.752693 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:01.753149 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:01.753164 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:02.790013 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:02.790224 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:02.790244 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:03.820904 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:03.821391 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:03.821405 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:04.850291 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:04.850845 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:04.850858 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:05.882156 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:05.882684 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:05.882702 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:06.920237 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:06.920945 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:06.920959 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:07.960359 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:07.961029 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:07.961043 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:08.991857 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:08.992273 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:08.992287 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:10.026542 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:10.026957 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:10.026976 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:11.056496 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:11.057061 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:11.057075 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:12.089843 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:12.090370 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:12.090389 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:13.111898 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:13.112307 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:13.112324 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:14.149459 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:14.149886 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:14.149900 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:15.189086 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:15.189501 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:15.189518 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:16.222394 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:16.222788 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:16.222807 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:17.257608 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:17.258006 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:17.258018 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:18.290813 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:18.291271 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:18.291294 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:19.323934 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:19.324536 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:19.324551 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:20.358724 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:20.359096 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:20.359113 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:21.393943 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:21.394333 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:21.394347 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:22.433409 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:22.434069 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:22.434089 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:23.469861 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:23.470345 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:23.470363 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:24.502062 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:24.502378 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:24.502393 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:25.539872 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:25.540402 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:25.540423 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:26.573859 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:26.574416 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:26.574437 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:27.609248 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:27.609820 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:27.609840 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:28.640933 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:28.641669 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:28.641685 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:28.869277 52:54:00:13:00:20 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 tell 192.168.130.20, length 28
+2026-11-18 11:07:29.669210 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:29.669623 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:29.669649 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:30.702838 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:30.703319 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:30.703339 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:31.735473 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:31.736029 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:31.736046 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:32.766930 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:32.767519 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:32.767540 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:33.798632 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:33.799088 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:33.799107 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:34.833246 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:34.833716 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:34.833734 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:35.867687 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:35.868199 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:35.868221 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:36.905442 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:36.906039 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:36.906061 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:37.943629 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:37.944781 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:37.944797 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:38.973999 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:38.974537 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:38.974557 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:40.014507 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:40.014859 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:40.014873 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:41.051053 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:41.051648 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:41.051670 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:42.080913 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:42.081511 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:42.081531 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:43.110116 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:43.110926 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:43.110945 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:44.145517 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:44.146004 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:44.146019 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:45.180071 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:45.180692 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:45.180711 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:46.206303 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:46.206850 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:46.206869 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:47.235792 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:47.236383 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:47.236402 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:48.266779 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:48.267320 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:48.267343 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:49.296149 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:49.296543 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:49.296560 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:50.330492 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:50.330883 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:50.330900 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:51.361039 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:51.361780 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:51.361821 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:52.395408 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:52.396094 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:52.396112 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:53.422442 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:53.423132 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:53.423146 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:54.454825 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:54.455228 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:54.455246 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:55.486079 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:55.486723 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:55.486742 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:56.513017 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:56.513543 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:56.513560 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:57.553953 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:57.554769 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:57.554797 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:58.587139 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:58.587558 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:58.587579 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:59.624364 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:07:59.624936 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:07:59.624966 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:00.657399 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:00.657849 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:00.657864 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:01.694797 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:01.695253 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:01.695273 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:02.720827 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:02.721264 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:02.721286 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:03.749152 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:03.749884 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:03.749905 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:04.780684 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:04.781062 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:04.781082 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:05.811064 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:05.811626 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:05.811640 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:06.848161 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:06.848652 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:06.848667 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:07.877104 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:07.877549 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:07.877563 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:08.916119 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:08.916709 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:08.916730 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:09.941031 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:09.941531 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:09.941547 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:10.980849 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:10.981382 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:10.981402 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:12.014141 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:12.014393 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:12.014407 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:13.042580 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:13.043203 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:13.043226 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:14.083915 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:14.084479 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:14.084495 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:15.114031 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:15.114449 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:15.114467 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:16.146592 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:16.147142 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:16.147162 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:17.172606 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:17.173054 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:17.173075 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:18.206568 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:18.207007 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:18.207036 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:19.235413 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:19.236016 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:19.236060 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:20.266317 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:20.266960 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:20.266977 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:21.306826 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:21.307401 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:21.307427 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:22.337838 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:22.338463 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:22.338490 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:23.364489 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:23.365108 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:23.365141 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:24.398535 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:24.399045 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:24.399101 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:25.176155 52:54:00:13:00:20 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 tell 192.168.130.20, length 28
+2026-11-18 11:08:25.429393 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:25.429859 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:25.429883 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:26.459717 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:26.460229 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:26.460247 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:27.493194 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:27.493669 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:27.493687 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:28.525773 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:28.526315 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:28.526341 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:29.553981 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:29.554538 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:29.554570 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:30.589394 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:30.589818 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:30.589844 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:31.617171 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:31.617538 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:31.617561 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:32.644088 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:32.644445 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:32.644459 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:33.668114 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:33.668574 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:33.668595 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:34.702886 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:34.703550 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:34.703587 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:35.735930 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:35.736376 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:35.736399 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:36.768194 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:36.768698 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:36.768721 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:37.791747 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:37.792322 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:37.792342 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:38.820120 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:38.820557 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:38.820578 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:39.860658 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:39.861200 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:39.861228 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:40.891915 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:40.892366 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:40.892386 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:41.926812 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:41.927201 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:41.927216 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:42.962503 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:42.962914 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:42.962933 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:43.992721 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:43.993144 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:43.993164 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:45.018007 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:45.018464 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:45.018480 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:46.056134 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:46.056538 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:46.056557 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:47.090821 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:47.091334 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:47.091353 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:48.122849 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:48.123358 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:48.123378 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:49.153909 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:49.154621 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:49.154654 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:50.185363 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:50.185881 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:50.185901 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:51.221456 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:51.221957 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:51.221979 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:52.250572 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:52.251082 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:52.251103 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:53.286135 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:53.286577 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:53.286597 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:54.317701 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:54.318218 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:54.318236 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:55.350956 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:55.351363 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:55.351385 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:56.385870 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:56.386258 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:56.386272 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:57.421296 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:57.421857 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:57.421874 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:58.457671 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:58.458071 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:58.458086 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:59.487558 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:08:59.488168 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:08:59.488183 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:00.526127 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:00.526736 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:00.526761 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:01.557799 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:01.558331 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:01.558347 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:02.593003 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:02.593568 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:02.593590 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:03.625587 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:03.626211 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:03.626234 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:04.657920 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:04.658568 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:04.658591 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:05.694920 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:05.695363 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:05.695384 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:06.728845 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:06.729339 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:06.729363 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:07.761154 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:07.761787 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:07.761807 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:08.800956 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:08.801469 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:08.801488 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:09.826492 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:09.827023 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:09.827040 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:10.857442 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:10.857992 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:10.858044 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:11.891313 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:11.891935 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:11.891957 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:12.925483 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:12.925963 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:12.925987 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:13.960144 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:13.960682 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:13.960698 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:14.996951 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:14.997380 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:14.997403 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:16.028840 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:16.029396 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:16.029418 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:17.069758 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:17.070214 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:17.070235 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:18.103436 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:18.103956 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:18.103978 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:19.138566 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:19.139340 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:19.139385 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:20.176638 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:20.177306 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:20.177325 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:21.199436 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:21.199797 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:21.199810 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:22.234189 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:22.234673 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:22.234693 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:23.261969 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:23.262624 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:23.262641 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:24.292886 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:24.293445 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:24.293467 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:25.328948 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:25.329476 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:25.329500 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:26.359252 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:26.359746 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:26.359762 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:27.400409 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:27.400819 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:27.400836 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:28.435893 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:28.436369 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:28.436388 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:29.461121 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:29.461561 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:29.461584 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:30.498789 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:30.499326 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:30.499342 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:31.530737 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:31.531558 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:31.531585 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:32.561687 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:32.562263 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:32.562280 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:33.593858 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:33.594269 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:33.594284 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:34.621958 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:34.622466 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:34.622481 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:35.650314 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:35.650838 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:35.650857 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:36.692184 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:36.692760 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:36.692789 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:37.732770 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:37.733183 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:37.733200 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:38.768050 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:38.768623 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:38.768637 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:39.802739 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:39.803287 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:39.803312 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:40.839491 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:40.839904 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:40.839925 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:41.877235 52:54:00:66:fc:ee > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 192.168.130.100 (ff:ff:ff:ff:ff:ff) tell 192.168.130.1, length 28
+2026-11-18 11:09:41.877705 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28
+2026-11-18 11:09:41.877721 52:54:00:13:00:20 > 52:54:00:66:fc:ee, ethertype ARP (0x0806), length 42: Reply 192.168.130.100 is-at 52:54:00:13:00:20, length 28

@@ -1,0 +1,6 @@
+2026-11-18T10:35:38.957Z unreachable
+2026-11-18T10:35:52.718Z 
+2026-11-18T10:36:22.391Z n_packets=0, n_bytes=0, idle_age=0, priority=499,arp,in_port=2,dl_dst=ff:ff:ff:ff:ff:ff,arp_spa=192.168.130.21,arp_op=1 actions=NORMAL;n_packets=0, n_bytes=0, idle_age=0, priority=498,arp,in_port=2,dl_dst=ff:ff:ff:ff:ff:ff,arp_op=1 actions=drop;
+2026-11-18T10:36:23.363Z n_packets=1, n_bytes=42, idle_age=0, priority=499,arp,in_port=2,dl_dst=ff:ff:ff:ff:ff:ff,arp_spa=192.168.130.21,arp_op=1 actions=NORMAL;n_packets=0, n_bytes=0, idle_age=0, priority=498,arp,in_port=2,dl_dst=ff:ff:ff:ff:ff:ff,arp_op=1 actions=drop;
+2026-11-18T10:36:23.858Z n_packets=1, n_bytes=42, idle_age=0, priority=499,arp,in_port=2,dl_dst=ff:ff:ff:ff:ff:ff,arp_spa=192.168.130.21,arp_op=1 actions=NORMAL;n_packets=0, n_bytes=0, idle_age=1, priority=498,arp,in_port=2,dl_dst=ff:ff:ff:ff:ff:ff,arp_op=1 actions=drop;
+2026-11-18T10:36:24.356Z 

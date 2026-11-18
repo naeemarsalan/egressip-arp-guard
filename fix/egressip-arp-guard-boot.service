@@ -1,0 +1,13 @@
+[Unit]
+Description=Hold back ARP from OVN at boot until ovnkube-node has synced
+After=ovs-configuration.service
+Before=kubelet.service
+
+[Service]
+Type=simple
+ExecStartPre=/usr/local/bin/egressip-arp-guard.sh start
+ExecStart=/usr/local/bin/egressip-arp-guard.sh release
+TimeoutStartSec=120
+
+[Install]
+WantedBy=multi-user.target
